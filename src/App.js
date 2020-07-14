@@ -109,6 +109,9 @@ function App(){
       </Row>
       <Col>    
       <Result text={left} text2= {operator} text3={right}   text4={result}/>
+      <ul>
+        {saveResult.map(value=><li>{value}</li>)}
+      </ul>
       </Col>
    
    </Container>
